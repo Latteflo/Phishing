@@ -68,6 +68,16 @@ The phishing incident response playbook contains all 7 steps defined by the NIST
 1. **Phishing Email Exercise**: There are 5 emails in the `email` folder which are analyzed to determine if they are phishing emails or not. The analysis is documented in the `analysis` folder. 
 
 2. We have to fish Alice, a car enthusiast. Here we will create a phishing email to send to [Alice](phishing_emails/alice.md) accordingly with the purpose of getting their credentials. I placed the phishing email in the `phishing-email` folder. 
-We will have an email and a fake website to fish Alice. The fake webpage will be hosted on github pages and once the user enters their credentials, they will be warned that they have been fished.
+We will have an email and a fake website to fish Alice. The fake webpage is hosted on [github pages](https://latteflo.github.io/museum-phishing/) and once the user enters their credentials, they will be warned that they have been fished.
+
+In the end the email looks like this : 
+
+![alt text](assets/email.png)
+
+
+and the website : 
+
+![alt text](assets/web.gif)
+
 
 Disclaimer: This repository is for educational purposes only.
